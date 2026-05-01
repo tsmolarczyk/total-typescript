@@ -1,3 +1,5 @@
+// add option to union
+
 interface UserProfile {
   id: string;
 

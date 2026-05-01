@@ -1,3 +1,5 @@
+// widen union to string
+
 interface UserProfile {
   id: string;
 
