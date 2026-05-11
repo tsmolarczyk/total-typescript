@@ -1,4 +1,4 @@
-import { expect, it } from "vitest";
+import { expect, it defaultUser} from "vitest";
 
 interface User {
   id: number;
@@ -11,7 +11,12 @@ interface User {
  * How do we ensure that defaultUser is of type User
  * at THIS LINE - not further down in the code?
  */
-const defaultUser = {};
+const defaultUser: User = {
+    id: 123,
+    firstName: "Tom",
+    lastName: "Es",
+    isAdmin: false
+};
 
 const getUserId = (user: User) => {
   return user.id;
