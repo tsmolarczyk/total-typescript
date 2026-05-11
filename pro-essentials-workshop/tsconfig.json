@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "Preserve",
-    "noEmit": true,
+    "noEmit": false,
+    "outDir": "./doopa",
     "isolatedModules": true,
     "moduleDetection": "force",
     "noUncheckedIndexedAccess": true,
